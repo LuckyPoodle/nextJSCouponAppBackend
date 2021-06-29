@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "deals",
+  "info": {
+    "name": "Deals"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Lunch_Menu": {
+      "type": "boolean"
+    },
+    "Dinner_Menu": {
+      "type": "boolean"
+    },
+    "Breakfast_Menu": {
+      "type": "boolean"
+    }
+  }
+}
