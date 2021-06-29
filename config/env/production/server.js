@@ -1,6 +1,4 @@
 module.exports=({env})=>({
-    url:env('APP_URL'),
-    admin:{
-        url:"/admin"
-    }
+    url:env('STRAPI_URL'),
+    
 });
