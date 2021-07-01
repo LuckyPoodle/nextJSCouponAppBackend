@@ -5,11 +5,11 @@ module.exports = ({ env }) => ({
       connector: 'bookshelf',
       settings: {
         client: 'postgres',
-        host: env('DATABASE_HOST', 'db-postgresql-nyc3-95945-do-user-8524638-0.b.db.ondigitalocean.com'),
+        host: env('DATABASE_HOST', 'db-postgresql-sgp1-95962-do-user-9442771-0.b.db.ondigitalocean.com'),
         port: env.int('DATABASE_PORT', '25060'),
         database: env('DATABASE_NAME', 'defaultdb'),
         username: env('DATABASE_USERNAME', 'doadmin'),
-        password: env('DATABASE_PASSWORD', 'tu4xhc3t0yqpf2x1'),
+        password: env('DATABASE_PASSWORD', 'l9fpixk7khnc1hiz'),
        
         ssl: {
           rejectUnauthorized: false, // For self-signed certificates
