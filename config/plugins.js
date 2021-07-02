@@ -1,17 +1,11 @@
-
 module.exports = ({ env }) => ({
-    // ...
     upload: {
-      provider: 'cloudinary',
+      provider: "publitio",
       providerOptions: {
-        cloud_name: env('CLOUDINARY_NAME'),
-        api_key: env('CLOUDINARY_KEY'),
-        api_secret: env('CLOUDINARY_SECRET'),
-      },
-      actionOptions: {
-        upload: {},
-        delete: {},
+        api_key: env("PUBLITIO_KEY"), //REQUIRED
+        api_secret: env("PUBLITIO_SECRET"), //REQUIRED
+        folder: "PROMO APP",
+        folder_id: "PROMO",
       },
     },
-    // ...
   });
