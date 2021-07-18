@@ -41,6 +41,9 @@
     },
     "Code": {
       "type": "string"
+    },
+    "urlname": {
+      "type": "string"
     }
   }
 }
