@@ -44,6 +44,12 @@
     },
     "urlname": {
       "type": "string"
+    },
+    "LongRunningDeal": {
+      "type": "boolean"
+    },
+    "LastActiveDay": {
+      "type": "date"
     }
   }
 }
